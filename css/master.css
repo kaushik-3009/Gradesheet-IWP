@@ -1,0 +1,59 @@
+body{
+font-family: sans-serif;
+background-image: url('../images/campus-banner.jpg');
+
+}
+section{
+  padding:5% 20%;
+  color:#dee2e6;
+}
+table{
+  width:100%;
+  background-color: #212529;
+  outline:10px solid black;
+}
+
+th{
+  text-align:left;
+  border: 1px solid #dee2e6;
+  border-top: 2px solid #dee2e6;
+  padding: 12px;
+
+}
+td{
+    border:1px solid #dee2e6;
+  width:5%;
+  margin: auto;
+  text-align:left;
+  vertical-align: middle;
+  padding: 12px;
+}
+.th-course{
+  width:8.5%;
+  margin: auto;
+  text-align: left;
+  vertical-align: middle;
+
+}
+.td-course{
+  width:10%;
+  margin: auto;
+  text-align: left;
+  vertical-align: middle;
+
+}
+tr:nth-child(even){background-color: #212529;}
+
+tr:hover {background-color: #32383e;}
+
+@media screen and (max-width:720px) {
+  section{
+    padding:5% 5%;
+  }
+  table{
+    width:80%;
+    overflow-x:auto;
+    overflow-y: auto;
+    margin: auto;
+  }
+}
